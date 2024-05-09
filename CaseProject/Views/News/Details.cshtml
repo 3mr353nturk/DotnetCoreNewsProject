@@ -1,0 +1,9 @@
+﻿@model CaseProject.Core.Models.NewsDetail
+
+@{
+    ViewData["Title"] = "Haber Detay";
+}
+
+<h2>@Model.Title</h2>
+
+<p>@Html.Raw(Model.BodyText)</p>
